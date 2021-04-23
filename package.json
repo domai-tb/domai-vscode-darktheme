@@ -1,6 +1,10 @@
 {
     "name": "domai.darktheme",
+<<<<<<< HEAD
     "displayName": "Darktheme by :Domai",
+=======
+    "displayName": ":Domai's Theme",
+>>>>>>> 88335dbfb4ff0f3fd96dd88f38ecbf4616c5cbb6
     "description": "",
     "version": "0.0.1",
     "engines": {
