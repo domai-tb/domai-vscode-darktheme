@@ -11,7 +11,7 @@ TitleBar
         /*
 Editor
 */
-        "editor.background": "#27292a",
+        "editor.background": "#27292A",
         "editor.lineHighlightBackground": "#323232",
         "editor.inactiveSelectionBackground": "#3a3d41",
         "editor.selectionBackground": "#264F78",
@@ -69,7 +69,7 @@ Activity Bar
         /*
 Terminal
 */
-        "terminal.background": "#252526",
+        "terminal.background": "#27292A",
         "terminal.foreground": "#BBBBBB",
         /*
 Status Bar
@@ -383,6 +383,50 @@ Python
             ],
             "settings": {
                 "foreground": "#8888C6"
+            }
+        },
+        /*
+EML
+*/
+        {
+            "scope": [
+                "text.eml keyword.control.eml.header",
+                "text.xml keyword.other",
+            ],
+            "settings": {
+                "foreground": "#6D9CBE",
+            }
+        },
+        {
+            "scope": [
+                "text.eml variable.other.eml.address",
+                //"text.eml entity.name.function",
+                "text.eml constant.other.eml.contenttype",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
+        /*
+LaTEX
+*/
+        {
+            "scope": [
+                "text.tex.latex support.function",
+                "text.tex.latex keyword.control.preamble.latex",
+            ],
+            "settings": {
+                "foreground": "#6D9CBE",
+            }
+        },
+        {
+            "scope": [
+                "text.tex.latex variable.parameter.function.latex",
+                "text.tex.latex meta.preamble.latex",
+                "text.tex.latex keyword.control",
+            ],
+            "settings": {
+                "foreground": "#A2BE6D",
             }
         },
         /*
