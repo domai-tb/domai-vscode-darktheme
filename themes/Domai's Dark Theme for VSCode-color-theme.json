@@ -386,6 +386,68 @@ Python
             }
         },
         /*
+Dart / Flutter 
+*/
+        {
+            "scope": [
+                "source.dart string.interpolated.double.dart",
+            ],
+            "settings": {
+                "foreground": "#6a8759",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "source.dart entity.name.function.dart",
+            "settings": {
+                "foreground": "#8888C6",
+            }
+        },
+        {
+            "scope": [
+                "source.dart support.type",
+            ],
+            "settings": {
+                "foreground": "#8888C6"
+            }
+        },
+        {
+            "scope": [
+                "source.dart storage.modifier.dart",
+            ],
+            "settings": {
+                "foreground": "#2eb4ddb9",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "source.dart variable.parameter.dart",
+                "source.dart keyword.operator.ternary.dart",
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "source.dart keyword.control.dart",
+                "source.dart keyword.declaration.dart",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
+        {
+            "scope": [
+                "source.dart storage.type.primitive.dart",
+                "source.dart support.class.dart",
+            ],
+            "settings": {
+                "foreground": "#c9966d",
+            }
+        },
+        /*
 EML
 */
         {
@@ -1377,8 +1439,8 @@ PHP (very incomplete)
 */
         {
             "scope": [
-                "punctuation.section.embedded.begin.metatag.php",
-                "punctuation.section.embedded.end.metatag.php"
+                "source.php punctuation.section.embedded.begin.metatag.php",
+                "source.php punctuation.section.embedded.end.metatag.php"
             ],
             "settings": {
                 "foreground": "#CC7832"
