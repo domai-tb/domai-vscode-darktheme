@@ -433,6 +433,7 @@ Dart / Flutter
             "scope": [
                 "source.dart keyword.control.dart",
                 "source.dart keyword.declaration.dart",
+                "source.dart keyword.other.import.dart"
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -445,6 +446,15 @@ Dart / Flutter
             ],
             "settings": {
                 "foreground": "#c9966d",
+            }
+        },
+        {
+            "scope": [
+                "source.dart storage.type.annotation.dart",
+            ],
+            "settings": {
+                "foreground": "#808080",
+                "fontStyle": "italic"
             }
         },
         /*
