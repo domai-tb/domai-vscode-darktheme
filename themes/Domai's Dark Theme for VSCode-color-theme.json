@@ -391,6 +391,7 @@ Dart / Flutter
         {
             "scope": [
                 "source.dart string.interpolated.double.dart",
+                "source.dart string.interpolated.triple.single.dart"
             ],
             "settings": {
                 "foreground": "#6a8759",
@@ -423,17 +424,17 @@ Dart / Flutter
         {
             "scope": [
                 "source.dart variable.parameter.dart",
-                "source.dart keyword.operator.ternary.dart",
             ],
             "settings": {
-                "fontStyle": "italic"
+                "fontStyle": "italic underline",
             }
         },
         {
             "scope": [
                 "source.dart keyword.control.dart",
                 "source.dart keyword.declaration.dart",
-                "source.dart keyword.other.import.dart"
+                "source.dart keyword.other.import.dart",
+                "source.dart keyword.operator.dart",
             ],
             "settings": {
                 "foreground": "#CC7832",
