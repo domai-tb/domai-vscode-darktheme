@@ -391,7 +391,8 @@ Dart / Flutter
         {
             "scope": [
                 "source.dart string.interpolated.double.dart",
-                "source.dart string.interpolated.triple.single.dart"
+                "source.dart string.interpolated.triple.single.dart",
+                "source.dart string.interpolated.single.dart",
             ],
             "settings": {
                 "foreground": "#6a8759",
