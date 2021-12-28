@@ -1,5 +1,5 @@
 {
-	"name": ":Domai's Dark Theme for VSCode",
+	"name": ":Domai's Dark Theme",
     "type": "dark",
     "colors": {
         /*
@@ -386,7 +386,7 @@ Python
             }
         },
         /*
-Dart / Flutter 
+Dart / Flutter
 */
         {
             "scope": [
@@ -1458,5 +1458,12 @@ PHP (very incomplete)
                 "foreground": "#CC7832"
             }
         },
-    ],
+    ], // tokenColors
+
+    /*"semanticHighlighting": true,
+    "semanticTokenColors":
+    {
+      "variable": "#ff0011",
+      "*.constructor": "#ff0000"
+    }*/
 }

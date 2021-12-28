@@ -13,9 +13,9 @@
     "contributes": {
         "themes": [
             {
-                "label": ":Domai's Dark Theme for VSCode",
+                "label": ":Domai's Dark Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Domai's Dark Theme for VSCode-color-theme.json"
+                "path": "./themes/Domai's Dark Theme-color-theme.json"
             }
         ]
     }
