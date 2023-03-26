@@ -26,8 +26,8 @@
 		"descriptionForeground": "#A0AABE",
 		"errorForeground": "#FF3A48",
 		"icon.foreground": "#20A7A7",
-		"textBlockQuote.background": "#FFFFFF",
-		"textCodeBlock.background": "#FFFFFF",
+		"textBlockQuote.background": "#20A7A740",
+		"textCodeBlock.background": "#20A7A740",
 		"textLink.activeForeground": "#FFFFFF",
 		"textLink.foreground": "#20A7A7",
 		"textPreformat.foreground": "#FFFFFF",
@@ -106,10 +106,10 @@
 		"titleBar.activeForeground": "#A0AABE",
 		"titleBar.inactiveBackground": "#1B1E26",
 		"titleBar.inactiveForeground": "#353A4A",
-		"menubar.selectionForeground": "#20A7A7",
+		"menubar.selectionForeground": "#FFFFFF",
 		"menu.foreground": "#A0AABE",
 		"menu.background": "#1B1E26",
-		"menu.selectionForeground": "#20A7A7",
+		"menu.selectionForeground": "#FFFFFF",
 		"menu.selectionBackground": "#1B1E26",
 		"menu.separatorBackground": "#353A4A",
 		"welcomePage.background": "#13161B",
@@ -159,7 +159,7 @@
 		"editorGroup.emptyBackground": "#1B1E26",
 		"editorGroup.focusedEmptyBorder": "#161A21",
 		"tab.activeBackground": "#1B1E26",
-		"tab.activeForeground": "#20A7A7",
+		"tab.activeForeground": "#FFFFFF",
 		"tab.unfocusedActiveBackground": "#161A21",
 		"tab.border": "#161A21",
 		"tab.activeBorder": "#161A21",
@@ -185,7 +185,7 @@
 		"editorLineNumber.foreground": "#353A4A",
 		"editorLineNumber.activeForeground": "#20A7A7",
 		"editorCursor.foreground": "#20A7A7",
-		"editor.selectionBackground": "#FFFFFF15",
+		"editor.selectionBackground": "#20A7A749",
 		"editor.selectionForeground": "#13161B",
 		"editor.inactiveSelectionBackground": "#FFFFFF15",
 		"editor.selectionHighlightBackground": "#FFFFFF15",
@@ -274,7 +274,7 @@
 		"editorCodeLens.foreground": "#353A4A",
 		"editorLightBulb.foreground": "#00EDFF",
 		"editorLightBulbAutoFix.foreground": "#00EDFF",
-		"editorBracketMatch.border": "#00EDFF",
+		"editorBracketMatch.border": "#00EEFF00",
 		"editor.foldBackground": "#161A21",
 		"editorOverviewRuler.background": "#161A21",
 		"editorOverviewRuler.border": "#161A21",
@@ -407,7 +407,7 @@
 			"name": "Storage Modifier Package,storage Modifier Import",
 			"scope": ["storage.modifier.package", "storage.modifier.import"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -470,7 +470,7 @@
 			"name": "Variable Parameter",
 			"scope": ["variable.parameter"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -484,7 +484,7 @@
 			"name": "String > Source,string Embedded",
 			"scope": ["string > source", "string embedded"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -526,7 +526,7 @@
 				"punctuation.definition.array"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -570,7 +570,7 @@
 				"punctuation.section.inner-class"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -681,14 +681,14 @@
 			"name": "Meta Class Body",
 			"scope": ["meta.class.body"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
 			"name": "Meta Method Call,meta Method",
 			"scope": ["meta.method-call", "meta.method"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -724,14 +724,14 @@
 			"name": "Meta Separator",
 			"scope": ["meta.separator"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
 			"name": "Meta Tag",
 			"scope": ["meta.tag"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -745,7 +745,7 @@
 			"name": "None",
 			"scope": ["none"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -871,14 +871,14 @@
 				"source.css property-value.support"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
 			"name": "Source Elixir Source Embedded Source",
 			"scope": ["source.elixir source.embedded.source"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1033,7 +1033,7 @@
 			"name": "Source Java Properties Meta Key Pair > Punctuation",
 			"scope": ["source.java-properties meta.key-pair > punctuation"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEB"
 			}
 		},
 		{
@@ -1154,14 +1154,14 @@
 			"name": "Ng Interpolation Bracket",
 			"scope": ["ng.interpolation bracket"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEB"
 			}
 		},
 		{
 			"name": "Ng Pipe,ng Operator",
 			"scope": ["ng.pipe", "ng.operator"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEB"
 			}
 		},
 		{
@@ -1192,7 +1192,7 @@
 				"ng.attribute-with-value string.end"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEB"
 			}
 		},
 		{
@@ -1206,7 +1206,7 @@
 			"name": "Source Php Class Bracket",
 			"scope": ["source.php class.bracket"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1227,14 +1227,14 @@
 			"name": "customrule",
 			"scope": "customrule",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
 			"name": "[VSCODE-CUSTOM] Support Type Property Name",
 			"scope": "support.type.property-name",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1294,7 +1294,7 @@
 				"variable.other.readwrite.tsx"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1332,7 +1332,7 @@
 				"source.tsx punctuation.definition.typeparameters"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1343,7 +1343,7 @@
 				"source.tsx punctuation.definition.block"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1354,7 +1354,7 @@
 				"source.tsx punctuation.separator.comma"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1415,7 +1415,7 @@
 				"meta.brace.square.tsx"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1426,7 +1426,7 @@
 				"source.tsx punctuation.accessor"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1437,7 +1437,7 @@
 				"punctuation.terminator.statement.tsx"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1502,7 +1502,7 @@
 				"punctuation.separator.parameter.tsx "
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1534,7 +1534,7 @@
 				"keyword.control.as.tsx"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1591,7 +1591,7 @@
 				"source.tsx meta.import-equals.external.tsx keyword.operator"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1605,7 +1605,7 @@
 			"name": "[VSCODE-CUSTOM] JS/TS Meta Class",
 			"scope": "meta.class.js,meta.class.ts,meta.class.jsx,meta.class.tsx",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1617,7 +1617,7 @@
 				"meta.definition.property.tsx variable"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1629,7 +1629,7 @@
 				"meta.type.parameters.tsx support.type"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1641,7 +1641,7 @@
 				"source.tsx meta.tag.tsx keyword.operator"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1653,7 +1653,7 @@
 				"meta.tag.tsx punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1751,7 +1751,7 @@
 			"name": "[VSCODE-CUSTOM] JS/TS Variable Other Object",
 			"scope": ["variable.other.object.js", "variable.other.object.ts"],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1768,7 +1768,7 @@
 			"name": "[VSCODE-CUSTOM] Python Constants Other",
 			"scope": "source.python constant.other",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1803,14 +1803,14 @@
 			"name": "[VSCODE-CUSTOM] Python Function Separator Annotation",
 			"scope": "punctuation.separator.annotation.python",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
 			"name": "[VSCODE-CUSTOM] Python Function Separator Punctuation",
 			"scope": "punctuation.separator.parameters.python",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1824,28 +1824,28 @@
 			"name": "[VSCODE-CUSTOM] CSharp Keyword Operators",
 			"scope": "source.cs keyword.operator",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
 			"name": "[VSCODE-CUSTOM] CSharp Variables",
 			"scope": "variable.other.readwrite.cs",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
 			"name": "[VSCODE-CUSTOM] CSharp Variables Other",
 			"scope": "variable.other.object.cs",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
 			"name": "[VSCODE-CUSTOM] CSharp Property Other",
 			"scope": "variable.other.object.property.cs",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1880,7 +1880,7 @@
 			"name": "[VSCODE-CUSTOM] Rust Storage Modifier Lifetime",
 			"scope": "storage.modifier.lifetime.rust",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1915,7 +1915,7 @@
 			"name": "[VSCODE-CUSTOM] Markdown Raw Block",
 			"scope": "markup.raw.block.markdown",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1929,7 +1929,7 @@
 			"name": "[VSCODE-CUSTOM] Css Support Constant Value",
 			"scope": "support.constant.property-value.css",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1957,7 +1957,7 @@
 			"name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
 			"scope": "meta.property-list.scss punctuation.separator.key-value.scss",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -1985,7 +1985,7 @@
 			"name": "[VSCODE-CUSTOM] Markdown heading setext",
 			"scope": "markup.heading.setext",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -2025,7 +2025,7 @@
 				"punctuation.definition.metadata.markdown"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
@@ -2087,7 +2087,7 @@
 			"name": "[VSCODE-CUSTOM] PHP Meta Class",
 			"scope": "meta.class.php",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#EBEBEBF"
 			}
 		},
 		{
