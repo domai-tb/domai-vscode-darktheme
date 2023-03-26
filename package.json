@@ -16,6 +16,11 @@
 				"label": ":Domai's Dracula Theme",
 				"uiTheme": "vs-dark",
 				"path": "./themes/domai-dracula.json"
+			},
+			{
+				"label": ":Domai's Colorful Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/domai-colorful.json"
 			}
 		]
 	},
