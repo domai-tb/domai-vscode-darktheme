@@ -1,22 +1,42 @@
 {
-    "name": "domai.darktheme",
-    "displayName": "Darktheme by :Domai",
-    "displayName": ":Domai's Theme",
-    "description": "It's me, :Domai ^^",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.54.0"
-    },
-    "categories": [
-        "Themes"
+	"name": "domai-theme",
+	"displayName": ":Domai's VSCode Theme",
+	"description": ":Domai's personal VSCode Theme.",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"publisher": "domai-tb",
+	"categories": [
+		"Themes"
     ],
-    "contributes": {
-        "themes": [
-            {
-                "label": ":Domai's Dark Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Domai's Dark Theme-color-theme.json"
-            }
-        ]
-    }
+	"contributes": {
+		"themes": [
+			{
+				"label": ":Domai's Dracula Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/domai-dracula.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"vsce": "^1.87.0"
+	},
+	"bugs": {
+		"url": "https://github.com/domai-tb/vscode-theme/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/domai-tb/vscode-theme"
+	},
+	"keywords": [
+		"dark theme",
+		"theme",
+		"awesome theme",
+		"best dark theme",
+		"cool theme",
+		"theme",
+        "domai",
+        "domai-tb"
+	]
 }
